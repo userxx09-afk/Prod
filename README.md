@@ -15,6 +15,7 @@ Each app has versioned releases (`<app>-<version>`) and one rolling release,
 | Camera Keeper (Windows) | https://github.com/userxx09-afk/prod/releases/download/camera-keeper-windows/CameraKeeper-Setup.exe |
 | Camera Keeper (Ubuntu) | https://github.com/userxx09-afk/prod/releases/download/camera-keeper-ubuntu/CameraKeeper-linux.tar.gz |
 | TapperVPN | https://github.com/userxx09-afk/prod/releases/tag/vpn-latest |
+| NetInventory (Windows Server) | https://github.com/userxx09-afk/prod/releases/download/lan-latest/NetInventory-Setup.exe |
 
 BCN and Camera Keeper were called BAN (Barb's Arlo Notifications) and Arlo Keeper. `arlo/latest.json`
 stays for phones still on BAN: it points at `bcn/BCN.apk`, so they update into BCN. The old

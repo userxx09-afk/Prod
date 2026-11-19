@@ -20,3 +20,7 @@ Each app has versioned releases (`<app>-<version>`) and one rolling release,
 BCN and Camera Keeper were called BAN (Barb's Arlo Notifications) and Arlo Keeper. `arlo/latest.json`
 stays for phones still on BAN: it points at `bcn/BCN.apk`, so they update into BCN. The old
 `arlo-windows-installer` and `arlo-ubuntu` releases are no longer updated.
+
+GitHub lists releases newest *tagged commit* first, then by tag name, so every new release
+should point at a recent commit here. Older Tapper IPTV builds only read the first 50 releases;
+from Tapper IPTV build 167 on, the Fire TV updater reads every page.
